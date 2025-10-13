@@ -1,14 +1,13 @@
-@use "./sass/variables" as *;
-@use "./sass/mixins" as *;
-@use "./sass/animations" as *;
+@use "./variables" as *;
 
-@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=MedievalSharp&display=swap");
 
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Coming Soon", cursive;
+	font-family: "BBH Sans Bogle", cursive;
 }
 
 html {
@@ -21,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "MedievalSharp", cursive;
+	font-family: "BBH Sans Bogle", cursive;
 }
 
 :root {
