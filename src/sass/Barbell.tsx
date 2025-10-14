@@ -109,7 +109,6 @@ export const Barbell = () => {
         }}
       />
 
-      {/* Optional glowing text */}
       <motion.h2
         style={{
           position: "absolute",

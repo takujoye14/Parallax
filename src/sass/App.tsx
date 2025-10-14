@@ -1,7 +1,6 @@
 import { Hero } from "../components/Hero";
 import { Barbell } from "./Barbell";
-import { Equipment } from "./Equipment";
-import { Progress } from "./Progress";
+import { Facility } from "./Facility";
 import {About} from "../components/About";
 
 function App() {
@@ -9,10 +8,8 @@ function App() {
     <div>
       <Hero />
       <About />
+      <Facility />
       <Barbell />
-      <Equipment />
-      <Progress />
-
     </div>
   );
 }
