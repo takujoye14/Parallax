@@ -1,7 +1,8 @@
 import { Hero } from "../components/Hero";
-import { Barbell } from "./Barbell";
-import { Facility } from "./Facility";
+import { Barbell } from "../components/Barbell";
+import { Facility } from "../components/Facility";
 import {About} from "../components/About";
+import {Contact} from "../components/Contact";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <About />
       <Facility />
+      <Contact/>
       <Barbell />
     </div>
   );

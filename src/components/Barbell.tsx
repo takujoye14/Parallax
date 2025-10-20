@@ -119,7 +119,7 @@ export const Barbell = () => {
           opacity: scrollYProgress,
         }}
       >
-        Strength in Progress
+        Strength in Progress...
       </motion.h2>
     </div>
   );

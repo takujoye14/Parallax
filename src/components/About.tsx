@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import gymguy from "../assets/gymguy.jpg";
+import gymGuy1 from "../assets/gymGuy1.jpg";
 
 export const About = () => {
   const ref = useRef(null);
@@ -87,6 +88,42 @@ export const About = () => {
               width: "100%",
               height: "150%",
               // objectFit: "cover",
+              y: imgY,
+              scale: 1.05,
+            }}
+          />
+        </div>
+      </div>
+            <div
+        style={{
+          position: "absolute",
+          top: "28%",
+          left:"15%",
+          display: "flex",
+          justifyContent: "flex-end",
+          alignItems: "center",
+          height: "70vh",
+          zIndex: 2,
+        }}
+      >
+        <div
+          style={{
+            position: "relative",
+            width: "35%",
+            height: "30vh",
+            borderRadius: "20px",
+            border: "1px solid #ff6600",
+            boxShadow: "0 0 30px rgba(255, 102, 0, 0.8)",
+            overflow: "hidden",
+          }}
+        >
+          <motion.img
+            src={gymGuy1}
+            alt="gym"
+            style={{
+              width: "100%",
+              height: "150%",
+              objectFit: "cover",
               y: imgY,
               scale: 1.05,
             }}
