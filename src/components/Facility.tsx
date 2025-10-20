@@ -8,10 +8,10 @@ import gym5 from "../assets/gym5.jpg";
 
 const images = [
   { src: gym1, alt: "Facility 1", description: "Spacious area for functional training" },
-  { src: gym2, alt: "Facility 2", description: "High-end cardio machines" },
+  { src: gym2, alt: "Facility 2", description: "High-end isolation machines for weight training" },
   { src: gym3, alt: "Facility 3", description: "Strength training zone with free weights" },
-  { src: gym4, alt: "Facility 4", description: "Dedicated stretching and mobility space" },
-  { src: gym5, alt: "Facility 5", description: "Recovery area with foam rollers and mats" },
+  { src: gym4, alt: "Facility 4", description: "Extra freeweight rack for additional exercises" },
+  { src: gym5, alt: "Facility 5", description: "Hyrox zones for high-intensity interval training" },
 ];
 
 export const Facility = () => {
