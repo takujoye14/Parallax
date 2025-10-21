@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import gymguy from "../assets/gymguy.jpg";
-import gymGuy1 from "../assets/gymGuy1.jpg";
+import gymGuy1 from "../assets/gymguy1.jpg";
 
 export const About = () => {
   const ref = useRef(null);
